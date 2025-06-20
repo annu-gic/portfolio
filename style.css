@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+.profile-img{
+    border-radius: 100%; 
+    width: 9rem;
+    height: 9rem;
+    position: fixed;
+    top: 2rem;
+    left:2rem;
+}
+
+
+.profile{
+    background-color: wheat;
+    font-size: 3rem;
+    line-height: 8rem;
+}
+
+.profile-text{
+    text-align: center;
+    font-style: italic;
+}
+.profile-text>h1{
+    font-size: 80px;
+}
+.profile-text>h2{
+    font-size: 35px;
+}
+.annu-img{
+    border-radius: 1000%;
+    width: 200px;
+    height: 200px;
+    padding-top: 50px;
+    margin-left: 700px;
+}
+.line>p{
+      font-style: italic;
+      font-size: 20px;
+      margin: 10px;
+      text-align: center;
+      line-height: 8rem;
+      text-shadow: 3px;
+      margin-top: 20px;
+}
+.my-line>h2{
+     font-style: italic;
+     font-size: 70px;
+     text-align: center;
+     margin-top: 30px;
+     margin-left: 20px;
+}
+.side-img{
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+}
+.my-infor{
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 3px;
+}
+
+/* .flex-container{
+    display: flex;
+    justify-content: space-around;
+    font-size: 5rem;
+}
+
+.flex-item{
+
+} */
+
+.painting{
+    width: 100%;
+    font-size: 50px;
+    /* height: 30%; */
+}
+
+.painting td:nth-child(1){
+    padding: 1rem;
+
+    width: 50%;
+    text-align: right;
+    
+}
+
+.painting td:nth-child(2){
+    padding: 1rem;
+
+    width: 50%;
+    text-align: left;
+}
+
+.painting-img{
+    width: 30%;
+    border-radius: 100%;
+}
+.line{
+      font-style: italic;
+      font-size: 70px;
+      margin: 10px;
+      text-align: center;
+      line-height: 8rem;
+      text-shadow: 3px;
+      margin-top: 20px;
+}
+
+.divider{
+    border-width: 1rem 0 0 0;
+    width: 30%;
+    border-style: dotted;
+    border-color: gray;
+    margin: auto;
+    padding: 2rem;;
+}
+.first-divider{
+    border-width: 1rem 0 0 0;
+    width: 30%;
+    border-style: dotted;
+    border-color: gray;
+    margin: auto;
+}
+.end-section>h2{
+    font-size: 5rem;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.end-section>p{
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+footer{
+    background-color: khaki;
+    margin-top: 20px;
+}
+.link{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: auto;
+}
+button{
+    font-style: italic;
+    font-size: 3rem;
+    margin-left: 700px;
+    background-color: cornflowerblue;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.land{
+    position: relative;
+    top: 3rem;
+    width: 60%;
+}
+
+
+.pretty-button {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 24px;
+  /* font-size: 16px; */
+  font-style: normal;
+    font-weight: bolder;
+  font-weight: 1000px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  outline: none;
+  width: 20rem;
+  height: 5rem;
+}
+
+.pretty-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pretty-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    background-image: url("annu1.jpg");
+}
+
+
